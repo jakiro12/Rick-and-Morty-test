@@ -1,0 +1,48 @@
+.father-button{
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+ }
+.father-all{   
+   background:rgb(69, 69, 230);   
+ }
+ .id-style{
+   margin-top: 40px;
+   margin-bottom: -30px;
+   font-size: 25px;
+   font-style: italic;
+ }
+.image{
+   width: 200px;
+   height: 200px;
+   }
+.card-box{
+  width: 350px;
+  height: 500px;
+  margin: 0 auto;
+  display: block;
+  justify-content: center;
+  margin-top: 40px;
+  background: linear-gradient(#e66465, #9198e5) padding-box,
+  linear-gradient(90deg, darkblue,darkorchid) border-box;
+  border-width: 6px;
+  border-style: solid;
+  border-color: transparent;
+  border-radius: 5px;
+}
+.button-sty{
+  margin-top: 50px;
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(#e66465, #9198e5) padding-box,
+  linear-gradient(90deg, darkblue,darkorchid) border-box;
+  border-width: 6px;
+  border-style: solid;
+  border-color: transparent;
+  border-radius: 5px;
+}
+.p-style{
+  font-size: 16px;
+  font-style: oblique;
+  position: static;
+}
