@@ -46,3 +46,11 @@
   font-style: oblique;
   position: static;
 }
+.finder-button{
+  display: grid;
+ justify-content: center;
+ align-items: center; 
+}
+.find{
+  margin-top: 50px;
+}

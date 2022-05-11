@@ -11,7 +11,7 @@ function data(){
 }
     useEffect(()=>{
         data()
-    })
+    },[])
     return(
         <div >
             <p className="p-style">
