@@ -1,0 +1,31 @@
+.button{
+    border: 4px solid black;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+}
+.back{
+    background-image:  url("https://rickandmortyapi.com/api/character/avatar/320.jpeg"),
+    url('https://rickandmortyapi.com/api/character/avatar/500.jpeg'),
+    url('https://rickandmortyapi.com/api/character/avatar/100.jpeg'),
+    url('https://rickandmortyapi.com/api/character/avatar/11.jpeg'),
+    url('https://rickandmortyapi.com/api/character/avatar/10.jpeg'),
+    url('https://rickandmortyapi.com/api/character/avatar/1.jpeg'),
+    url('https://rickandmortyapi.com/api/character/avatar/2.jpeg'),
+    url('https://rickandmortyapi.com/api/character/avatar/3.jpeg'),
+    url('https://rickandmortyapi.com/api/character/avatar/4.jpeg'),
+    url('https://rickandmortyapi.com/api/character/avatar/5.jpeg'),
+    url('https://rickandmortyapi.com/api/character/avatar/6.jpeg'),
+    url('https://rickandmortyapi.com/api/character/avatar/7.jpeg'),
+    url('https://rickandmortyapi.com/api/character/avatar/8.jpeg'),
+    url('https://rickandmortyapi.com/api/character/avatar/9.jpeg'),
+    url('https://rickandmortyapi.com/api/character/avatar/20.jpeg');  
+    background-repeat: no-repeat;
+    outline: 2px solid black;
+    height: 900px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: top left, 300px 0px,top center,900px 0px,top right,0px 300px,300px 300px,center 300px,900px 300px,center right,bottom left,300px 600px,bottom center,900px 600px,bottom right;
+
+}

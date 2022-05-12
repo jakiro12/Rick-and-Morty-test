@@ -25,7 +25,7 @@ function ChangeP(){
     return(
         <div className='finder-button'  >
            
-            <button  className='button-sty' onClick={()=>{dispatch(changeId(number))}}>Change to:</button>
+            <button  className='button-sty' onClick={()=>{dispatch(changeId(number))}}>Change ID:</button>
             <input  onKeyDown={handleKeyDown} className='find' type="text" onChange={(event)=>{setNumber(event.target.value)}} />
             
         </div>

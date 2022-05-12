@@ -3,9 +3,9 @@ import '../App.css'
 const URL= `https://rickandmortyapi.com/api/character/`
 
 function Location(props){
-const[char,setChar]=useState([`${props.id}`])
+const[char,setChar]=useState([`${props.l}`])
 function data(){
-    fetch(`${URL}${props.id}`)
+    fetch(`${URL}${props.l}`)
     .then(res=> res.json())
     .then(data=>setChar(data.location.name))
 }

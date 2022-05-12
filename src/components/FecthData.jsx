@@ -3,19 +3,20 @@ import '../App.css'
 const URL= `https://rickandmortyapi.com/api/character/`
 
 function Data(props){
-const[char,setChar]=useState([`${props.id}`])
+const[char,setChar]=useState([`${props.n}`])
 function data(){
-    fetch(`${URL}${props.id}`)
+    fetch(`${URL}${props.n}`)
     .then(res=> res.json())
     .then(data=>setChar(data))
 }
     useEffect(()=>{
         data()
-    },[])
+    })
     return(
         <div >
             <p className="p-style">
             {char.name}  
+           
             </p>    
             <p className="p-style">
            Status: {char.status}
